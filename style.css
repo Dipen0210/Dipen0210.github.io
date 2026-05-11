@@ -247,6 +247,15 @@ ul { list-style: none; }
   0%,100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.6; transform: scale(0.85); }
 }
+.hero-photo {
+  width: 96px; height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 2px solid rgba(79,158,255,0.5);
+  box-shadow: 0 0 0 5px rgba(79,158,255,0.1), 0 8px 32px rgba(0,0,0,0.5);
+  margin-bottom: 4px;
+}
 .hero-name {
   font-size: clamp(3.5rem, 9vw, 6rem);
   font-weight: 800;
